@@ -152,4 +152,3 @@ def test_start_invalid_move_out_of_bounds(mock_input, mock_print, tic_tac_toe_ga
     mock_print.assert_any_call('Invalid spot. Try again!')
     assert tic_tac_toe_game.board[0][0] == 'X'
     assert tic_tac_toe_game.board[0][1] == '-'
-```
